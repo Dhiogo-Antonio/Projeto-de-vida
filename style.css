@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container h1, *{
+    color: white;
+}
+
+.container h1{
+    font-size: 40px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nome{
+    max-width: 1000px;
+    padding: 35px;
+    margin: auto;
+    display: flex;
+}
+
+body{
+    background: linear-gradient(#030E4F, #F49F1C);
+    overflow-y: hidden;
+}
+
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li{
+    padding: 0 10px;
+    font-size: 20px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #F49F1C;
+}
+
+.frase{
+    max-width: 1200px;
+    margin: auto;
+    padding: 150px;
+    display: flex;
+    font-size: 25px;
+}
+
+
+.imagem{
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    margin: -100px;
+}
+
+.secao_texto{
+    padding: 58px;
+    margin: auto;
+    display: flex;
+    font-size: 25px;
+}
+
+.secao_texto{
+    font-size: 25px;
+}
+
+
+.personalidade{
+    min-width: 300px;
+    max-width: 350px;
+    padding: 50px;
+}
+
+
+
+
+
+.secao_texto2{
+    padding: 58px;
+    margin: auto;
+    display: flex;
+    font-size: 25px;
+    gap: 50px;
+}
+
+
+.carreira{
+    min-width: 250px;
+    max-width: 350px;
+}
+
+
+.objetivos{
+    padding: 83px;
+    margin: auto;
+    display: flex;
+    font-size: 25px;
+    gap: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sonhos{
+    min-width: 250px;
+    max-width: 150px;
+
+}
+
+.inspiracoes{
+    padding: 50px;
+    margin: auto;
+    display: flex;
+    font-size: 25px;
+    gap: 50px;
+    max-width: 1200px;
+    
+}
+
+
+.yamal img{
+    width: 300px;
+   
+    
+}
+
+.messi img{
+    width: 200px;
+}
+
+
